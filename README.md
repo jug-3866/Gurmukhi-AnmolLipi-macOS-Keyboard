@@ -5,4 +5,5 @@ Installer is available in the releases section. Please be sure to log out and ba
 
 This keyboard is mapped based on the following picture:
 ![Punjabi_KB](https://github.com/user-attachments/assets/d39d6557-afc2-4e89-a0fd-3e64b4053fab)
-
+---
+*Note: This keyboard layout does not include the khanda (☬) character
