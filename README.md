@@ -1,5 +1,5 @@
 # Gurmukhi-AnmolLipi-macOS-Keyboard
-Punjabi Gurmukhi keyboard layout for macOS based on AnmolLipi bindings
+Punjabi Gurmukhi keyboard layout for macOS based on AnmolLipi bindings made with Ukelele
 
 Installer is available in the releases section. Please be sure to log out and back in for the keyboard layout to show up.
 
