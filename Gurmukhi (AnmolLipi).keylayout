@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 452 on 2026-01-05 at 22:04 (PST)-->
-<!--Last edited by Ukelele version 452 on 2026-01-05 at 23:57 (PST)-->
+<!--Last edited by Ukelele version 452 on 2026-01-07 at 00:36 (PST)-->
 <keyboard group="126" id="-603" name="Gurmukhi (AnmolLipi)" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -41,7 +41,7 @@
     <keyMapSet id="ANSI">
         <keyMap index="0">
             <key code="0" action="a1 1"/>
-            <key code="1" action="ਸ"/>
+            <key code="1" action="ਸ 1"/>
             <key code="2" action="ਦ"/>
             <key code="3" action="ਡ"/>
             <key code="4" action="ਹ"/>
@@ -2391,7 +2391,9 @@
         </action>
         <action id=" ">
             <when state="none" output=" "/>
-            <when state="a1" output=" "/>
+            <when state="Dead Key State 0" output="ੲ"/>
+            <when state="a1" output="ੳ"/>
+            <when state="a2" output="ਅ"/>
             <when state="e1" output=" "/>
             <when state="e2" output=" "/>
         </action>
@@ -4254,9 +4256,7 @@
         </action>
         <action id="ਗ">
             <when state="none" output="ਗ"/>
-            <when state="Dead Key State 0" output="ਗ਼"/>
             <when state="a1" output="ਗ਼"/>
-            <when state="a2" output="ਗ਼"/>
             <when state="e1" output="ਗ਼"/>
             <when state="e2" output="ਗ਼"/>
         </action>
@@ -4286,9 +4286,7 @@
         </action>
         <action id="ਜ">
             <when state="none" output="ਜ"/>
-            <when state="Dead Key State 0" output="ਜ਼"/>
             <when state="a1" output="ਜ਼"/>
-            <when state="a2" output="ਜ਼"/>
             <when state="e1" output="ਜ਼"/>
             <when state="e2" output="ਜ਼"/>
         </action>
@@ -4407,7 +4405,7 @@
         </action>
         <action id="ਲ">
             <when state="none" output="ਲ"/>
-            <when state="a1" output="ਲ"/>
+            <when state="a1" output="ਲ਼"/>
             <when state="e1" output="ਲ"/>
             <when state="e2" output="ਲ"/>
         </action>
@@ -4428,6 +4426,12 @@
             <when state="Dead Key State 0" output="ਸ਼"/>
             <when state="a1" output="ਸ਼"/>
             <when state="a2" output="ਸ਼"/>
+            <when state="e1" output="ਸ਼"/>
+            <when state="e2" output="ਸ਼"/>
+        </action>
+        <action id="ਸ 1">
+            <when state="none" output="ਸ"/>
+            <when state="a1" output="ਸ਼"/>
             <when state="e1" output="ਸ਼"/>
             <when state="e2" output="ਸ਼"/>
         </action>
